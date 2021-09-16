@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;    
+}
+body, html{
+    padding: 0;
+    margin: 0;
+}
+
+.tabla{
+    margin-top: 50px;
+    margin-left: 50px;
+    border: #000 1px solid;
+    border-collapse: collapse;
+    background: #ccc;
+}
+
+.tabla td,th{
+    border: #000 solid 1px;
+    padding: 15px;
+}
+
+h1,h2{
+    color: #00f;
+}
+
+#caja1 h1{
+    color: #0f0;
+}
+
+.tabla2{
+    width: 100%; 
+    border-collapse: collapse;   
+}
+.tabla2 td{
+    border-bottom: 1px #00f solid;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.tabla2 tr:nth-child(even){ 
+    background: #65df55;
+}
+.tabla2 tr:nth-child(odd){ 
+    background: #a8a8d1;
+}
+
+.tabla2 tr:hover{
+    background: #00f;
+}
