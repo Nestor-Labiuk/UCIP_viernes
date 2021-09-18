@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;    
+}
+body, html{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --color1: #222;
+    --color2: #fff;
+    --color3: #64c737;
+
+}
+
+body{
+    /* background: var(--color1);
+    color: var(--color2); */
+}
+h1{
+    color: var(--color3);
+}
+
+.boton{
+    background: var(--color3);
+}
