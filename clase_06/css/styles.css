@@ -1,0 +1,63 @@
+:root{
+    --txt1: #fff;
+    --bg1: #222;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;    
+}
+body, html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: var(--bg1);
+    color: var(--txt1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+a, a:link, a:visited, a:hover, a:active{
+  outline: none !important;
+  text-decoration: none;
+}
+
+.dp-container {
+    width: 100%;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+.dp-btn{
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    border-radius: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.dp-btn-blu{
+    background-color: #2334cf;
+    color: #fff;
+}
+.dp-btn-blu:hover{
+    background-color: #1321a1;    
+}
+.dp-btn-red{
+    background-color: #cf2323;
+    color: #fff;
+}
+.dp-btn-red:hover{
+    background-color: #a13b13;    
+}
+.dp-btn-green{
+    background-color: #23cf40;
+    color: #fff;
+}
+.dp-btn-green:hover{
+    background-color: #13a12b;  
+}
