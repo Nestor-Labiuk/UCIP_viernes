@@ -1,0 +1,28 @@
+:root{
+    --txt1: #fff;
+    --bg1: #222;
+}
+body{
+    background: var(--bg1);
+    color: var(--txt1);
+}
+a, a:link, a:visited, a:hover, a:active{
+  outline: none !important;
+  text-decoration: none;
+}
+
+#caja1{
+  width: 400px;
+  height: 400px;
+  background: #f00;
+}
+#caja2{
+  width: 100px;
+  height: 100px;
+  background: #ff0;
+}
+#caja3{
+  width: 100px;
+  height: 100px;
+  background: #f0f;
+}

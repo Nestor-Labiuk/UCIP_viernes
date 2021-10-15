@@ -1,0 +1,19 @@
+:root{
+    --txt1: #fff;
+    --bg1: #222;
+}
+body{
+    background: var(--bg1);
+    color: var(--txt1);
+}
+a, a:link, a:visited, a:hover, a:active{
+  outline: none !important;
+  text-decoration: none;
+}
+
+#resultado{
+  width: 200px;
+  height: 60px;
+  border: 2px #0f0 solid;
+  padding: 20px;
+}
