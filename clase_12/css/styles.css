@@ -1,0 +1,11 @@
+:root{
+    --txt1: #fff;
+    --bg1: #222;
+}
+
+a, a:link, a:visited, a:hover, a:active{
+  outline: none !important;
+  text-decoration: none;
+}
+
+
