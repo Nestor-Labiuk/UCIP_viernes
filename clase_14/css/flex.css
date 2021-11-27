@@ -1,0 +1,100 @@
+
+/* https://www.w3schools.com/css/css3_flexbox.asp
+https://www.w3schools.com/css/css_grid.asp */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;    
+}
+body, html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3{
+  font-weight: 700;
+}
+p{
+  font-weight: 400;
+}
+.contenedor {
+  width: 100%;
+  padding-right: 10rem;
+  padding-left: 10rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#app{
+  height: 300px;
+  
+  background: #0ff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  align-content: center;
+  justify-content: space-between;
+}
+.item{
+  
+  height: 50px;
+  background: #222;
+  color: #fff;
+  padding: 10px;
+ 
+}
+
+
+@media (min-width: 576px) {
+  
+}
+@media (min-width: 768px) {
+  
+}
+@media (min-width: 992px) {
+  #app{
+    flex-direction: row;
+  }
+  .item{
+    background: #f00;
+  }
+}
+@media (min-width: 1200px) {
+  
+}
+
+#box{
+  width: 400px;
+  height: 320px;
+  background: #222;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box-tecla{
+  width: 100px;
+  height: 80px;
+  /* border: 1px solid #fff; */
+  padding: 10px;
+}
+
+.tecla{
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 2em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.tecla:hover{
+  background: #58d410;
+}
