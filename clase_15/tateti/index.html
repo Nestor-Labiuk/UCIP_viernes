@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link href='https://res.webserver.ar/img/dn_ico.png' rel='shortcut icon' type='image/png'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TA-TE-TI</title>
+    
+    <link rel='stylesheet' href='css/tateti.css'>
+</head>
+<body>
+
+    <div class="dp-container">
+        <div id="top">
+            <h1>TA-TE-TI 1.0.0</h1>
+            <div id="btns">
+                <button id="btn_nuevo" class="btn">NUEVO PARTIDO</button>
+            </div>
+        </div>
+        <hr>
+        <br>
+        <div id="app">
+
+            <div id="fondo">
+                <div id="tablero">
+                    <div class="casillas" data-ncasilla="0" data-ocupada="0"></div>
+                    <div class="casillas" data-ncasilla="1" data-ocupada="0"></div>
+                    <div class="casillas" data-ncasilla="2" data-ocupada="0"></div>
+                    <div class="casillas" data-ncasilla="3" data-ocupada="0"></div>
+                    <div class="casillas" data-ncasilla="4" data-ocupada="0"></div>
+                    <div class="casillas" data-ncasilla="5" data-ocupada="0"></div>
+                    <div class="casillas" data-ncasilla="6" data-ocupada="0"></div>
+                    <div class="casillas" data-ncasilla="7" data-ocupada="0"></div>
+                    <div class="casillas" data-ncasilla="8" data-ocupada="0"></div>
+                </div>
+            </div>
+
+            <div id="info_partido">
+                <h1>Turno jugador: <span id="turno"></span></h1>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    
+    <script src='js/tateti.js' charset='utf-8'></script>
+</body>
+</html>

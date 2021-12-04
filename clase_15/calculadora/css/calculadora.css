@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;    
+}
+body, html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #222;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dp-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.teclado{
+    width: 400px;
+    background: #1d1c1c;
+    padding: 15px;
+    border-radius: 5px;
+}
+.previs{
+    background: #1d1c1c;
+    border: solid 1px #ccc;
+    color: #fff;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    
+    border-radius: 5px;
+    text-align: right;
+    padding-right: 5px;
+    grid-column: 1/5;
+
+}
+.visor{
+    background: #75c73f;
+    color: #222;
+    /* height: 60px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    
+    border-radius: 5px;
+    text-align: right;
+    padding-right: 5px;
+    grid-column: 1/5;
+}
+.visor{
+    font-size: 3em;
+    margin: 0;
+    padding-right: 4px;
+    
+}
+
+.tecla, .tecla_e{
+    border-radius: 5px;
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
+.te-n{
+    background: #ddd;
+    color: #222;
+}
+.te-op{
+    background: #9e9d9d;
+    color: #fff;
+}
+.te-ig{
+    background: #e27115;
+    color: #fff;
+}
+
+.te-n:hover{
+    background: #c5c4c4;
+}
+.te-op:hover{
+    background: #525151;
+}
+.te-ig:hover{
+    background: #aa5209;
+}
+.dp-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);    
+    grid-template-rows: 30px repeat(6 , 1fr);  
+    gap: 10px;  
+}
+
+
+
