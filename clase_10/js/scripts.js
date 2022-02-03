@@ -12,14 +12,13 @@ let app = document.getElementById('app');
 let btn_agregar = document.querySelector('#btn_agregar');
 let btn_quitar = document.querySelector('#btn_quitar');
 
-btn_agregar.addEventListener('click', ()=>{
+btn_agregar.addEventListener('click', () => {
     let divx = document.createElement('div');
     divx.innerHTML = "HOLA";
     app.appendChild(divx);
-    
 });
 
-btn_quitar.addEventListener('click', ()=>{
+btn_quitar.addEventListener('click', () => {
     let aa = document.querySelector("#app>div:last-child");
 
     aa.remove();
