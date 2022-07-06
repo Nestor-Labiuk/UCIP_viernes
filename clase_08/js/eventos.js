@@ -17,13 +17,13 @@ let caja3 = document.querySelector('#caja3');
 // });
 
 
-caja1.addEventListener('click', (e)=>{
+caja1.addEventListener('click', (e) => {
     let id = e.target.id;
-    if(id != "caja1"){
-        let t = e.target.dataset.val;
+    let t = e.target.dataset.val;
+    if (id != "caja1") {
         alert(`Hola soy ${t}`);
-    }
-  
+    } else alert(`Hola soy ${t}`);
+
 });
 
 // if(a===b){

@@ -1,30 +1,28 @@
-#caja1{
+#caja1 {
     width: 100px;
     height: 50px;
     background: #494545;
 }
 
 @media (min-width: 576px) {
-    #caja1{
+    #caja1 {
         width: 200px;
         height: 50px;
         background: #f00;
     }
 }
 
-
 @media (min-width: 768px) {
-    #caja1{
+    #caja1 {
         width: 300px;
         height: 50px;
         background: #051b92;
-        display: none;
+        /* display: none; */
     }
 }
 
-
 @media (min-width: 992px) {
-    #caja1{
+    #caja1 {
         width: 400px;
         height: 50px;
         background: #6add27;
@@ -32,9 +30,8 @@
     }
 }
 
-
 @media (min-width: 1200px) {
-    #caja1{
+    #caja1 {
         width: 500px;
         height: 50px;
         background: #b31c79;
